@@ -1,0 +1,25 @@
+footer{
+    position: fixed;
+    font-family: "Source Sans Pro";
+    width: 100%;
+    bottom: 0px;
+}
+
+li a {
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+#add a{
+    display: flex;
+    font-size:13px;
+    width: 100%;
+    margin-top:10px;
+}
+
+.list li a {
+    margin-top: 3px; 
+    font-size: 13px;
+}

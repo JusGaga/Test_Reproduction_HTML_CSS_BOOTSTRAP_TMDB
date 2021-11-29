@@ -1,0 +1,137 @@
+
+
+:root {
+  --darkBlue: #0d253f;
+  --lightBlue: #01b4e4;
+  --lightGreen: #90cea1;
+}
+body {
+  min-height: 100%;
+  height: auto;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 100%;
+  font-family: "Source Sans Pro";
+  z-index: 10;
+  background-color: var(--darkBlue);
+}
+#navbar {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+#navbar-full {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 40px;
+}
+
+#Nav-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: visible;
+}
+#Nav-img a img {
+  margin-right: 16px;
+  width: 154px;
+  height: 20px;
+}
+
+.navbar a {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.SubNav {
+  float: left;
+}
+
+.SubNav .subnavbtn {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  /* font-family: inherit; */
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  z-index: auto;
+}
+li {
+  list-style-type: none;
+}
+
+.subnav-content a {
+  margin-bottom: 5px;
+  padding: 14px 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  color: black;
+}
+
+.SubNav:hover .subnav-content {
+  display: block;
+}
+
+#Nav-right {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: visible;
+}
+
+#Nav-right ul li {
+  list-style-type: none;
+}
+#Nav-right ul  {
+    margin-bottom: 0;
+  }
+.nav-right-content {
+  float: left;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.nav-right-content li a {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  /* font-family: inherit; */
+  text-decoration: none;
+  text-align: center;
+}
